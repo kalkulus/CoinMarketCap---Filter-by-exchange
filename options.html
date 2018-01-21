@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CoinMarketCap - Exchange filter Options</title>
+
+	<style>
+	.options_field {
+		padding: 5px 0 5px 200px;		
+		position: relative;
+	}
+	.options_field label {
+		width: 200px;
+	    display: inline-block;
+	    position: absolute;
+	    top: 5px;
+	    left: 0;
+	}
+	.options_field select {
+		width: 200px;
+	}
+
+	.options_field #exchanges {
+		height: 150px;
+		width: 200px;
+		overflow: scroll;
+		overflow-x: hidden;
+	}
+
+	#status {
+		color: green;
+	}
+
+	.donate {
+		border-top: 1px solid black;
+    	margin-top: 20px
+	}
+
+	.donate strong {
+		display: inline-block;
+		width: 42px;
+	}
+
+
+	</style>
+</head>
+<body>
+
+<div class="options_field">
+	<label>
+		Sort by:
+	</label>
+	<select id="sort">
+	 <option value="default">Default (by volume)</option>
+	 <option value="az">A-Z</option> 
+	</select>
+</div>
+
+<div class="options_field">
+	<label>
+		Update exchanges interval:
+	</label>
+	<select id="update-interval">
+	 <option value="always">Every time I open the page</option>
+	 <option value="1d">Every 24h</option> 
+	 <option value="2d">Every 48h</option> 
+	 <option value="1w">Every 7days</option> 
+	</select>
+</div>
+
+<div class="options_field">
+	<label>
+		Select your favorite exchanges:<br />
+		(will be listed on top of dropdown)
+	</label>
+	<div id="exchanges">
+	</div>
+ </div>
+
+<button id="save">Save</button> <span id="status"></span>
+
+<div class="donate">
+<p>If you like this extension please donate. Thanks :)</p>
+<p>
+	<strong>BTC:</strong> <span>149SFPswNbHmR6rzh7KBJuLWWnyWBxTi7G</span> <br/>
+	<strong>ETH:</strong> <span>0x17690d624fcaB0Df696aD7d9A987403B083169e2</span> <br />
+	<strong>LTC:</strong> <span>LZsj7eZUJR5yuXpiKy3saNaM43uXJ8X2QL</span> <br />
+	<strong>TRX:</strong> <span>0xcbbb11e17d3b53b063c3b578a05cb5bda5f96568</span> <br />	
+	<strong>DASH:</strong> <span>XchkhRpk2YyumQ57ui427UwLHeaG6c7DcV</span> <br />	
+	<strong>ICX:</strong> <span>0xcbbb11e17d3b53b063c3b578a05cb5bda5f96568</span>
+</p>
+</div>
+
+<script src="jquery-3.2.1.min.js"></script>
+<script src="cmc-ef.js"></script>
+<script src="options.js"></script>
+</body>
+</html>
