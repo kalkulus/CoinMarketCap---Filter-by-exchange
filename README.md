@@ -7,6 +7,7 @@ Extension adds a dropdown to the CoinMarketCap website with a list of exchanges 
 
 **If there are 100 coins in the list it will only filter those coins. It will not add new coins to give you a new list of 100 coins**
 
+[Add to Chrome](https://chrome.google.com/webstore/detail/coinmarketcap-filter-coin/fbeffmpldlfdkoelecijhdckcngggnnf?hl=en&gl=001)
 
 # Screenshots
 
