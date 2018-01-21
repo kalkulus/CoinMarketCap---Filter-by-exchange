@@ -1,6 +1,6 @@
 {
 	"manifest_version": 2,
-  	"name": "CoinMarketCap - Filter coins/tokens by exchange",
+  	"name": "CoinMarketCap - Filter coins by exchange",
   	"description": "Filter lists of cryptocurrencies on CoinMarketCap.com by exchange(eg. Binance, Bitfinex, Cryptopia..)",
   	"version": "1.0",
  	"icons": { 
